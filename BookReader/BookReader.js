@@ -309,6 +309,8 @@ BookReader.prototype.init = function() {
         this.getOpenLibraryRecord(this.gotOpenLibraryRecord);
     }
 
+    setTimeout(function() { $('.BRnavCntl').click(); }, 4000);
+
 }
 
 BookReader.prototype.setupKeyListeners = function() {
